@@ -1,5 +1,5 @@
 pipeline{
-    agent{label 'Slave1'}
+    agent{label 'мастер'}
     tools{maven 'M3'}
     stages{
         stage('Checkout'){
